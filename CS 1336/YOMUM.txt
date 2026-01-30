@@ -1,0 +1,124 @@
+//This are the only header files allowed
+//-----------------------------------------
+#include <iostream>//for cin and cout
+#include <fstream>//for file handling
+#include <cmath> //for sqrt and pow
+#include <iomanip> //for output formatting
+#include <string>
+//-----------------------------------------
+
+const int MAX_RECORDS = 400;   //Defined as part of the problem statement
+using namespace std;  //Define the namespace.
+
+//Define the structure here
+struct City 
+{
+    //Add the required data and function members
+    int id;
+    char group;
+    double x;
+    double y;
+    string name;
+};
+
+//Function prototypes
+int getNumberOfRecords(char[]);
+bool readFile(char[], City[], int);
+double computeDistance(City[], int, int, int);
+//Add any other function you may need here
+
+int main()
+{
+    char filename[] = "cityInfo.txt"; //filename
+    int N = getNumberOfRecords(filename);//Count the number of lines in the input filename
+    //Declare an array of structures with up to MAX_RECORDS elements
+    City allRecords [MAX_RECORDS];
+    
+    int idCityOne, idCityTwo;// To read the ids for city 1 and city 2
+
+    double distance;
+
+    //If the number of records is 0(file is empty) or there is an error, exit the program
+    if (N <= 0) {
+            cout << "File not found\n";
+            return -1;
+    }
+    //Now read the input file
+    if (!readFile(filename, allRecords, N))
+    {
+        cout << "File not readable\n";
+        return -2;
+    }
+    //Get the cities ids
+    cin >> idCityOne;
+    cin >> idCityTwo;
+
+    //Compute the distance
+    distance = computeDistance(allRecords, N, idCityOne, idCityTwo);
+    if (distance < 0) 
+    {
+        cout << "Could not compute distence\n";
+        return -4;
+    }
+    cout << fixed << setprecision(2) << distance;
+
+    return 0;
+}
+
+int getNumberOfRecords(char filename[]) 
+{
+    ifstream inputFile(filename);
+    if (!inputFile.is_open()) 
+    {
+        return -1;  // file not found or cannot be opened
+    }
+    int count = 0;
+    string line;
+    while (getline(inputFile, line))
+    {
+        count++;
+    }
+    inputFile.close();
+    return count;
+}
+
+bool readFile(char filename[],City allRecords[], int numRecords) 
+{
+    ifstream input(filename);
+    if (!input.is_open()) {
+        return false; // error opening file
+    }
+
+    for (int i = 0; i < numRecords; i++) {
+        City city;
+        input >> city.id >> city.group >> city.x >> city.y;
+        getline(input, city.name);
+        allRecords[i] = city;
+    }
+
+
+    input.close();
+    return true;
+}
+
+double computeDistance(City allRecords[], int num, int id1, int id2)
+{
+    // Find the cities with the given ids
+    City city1, city2;
+    int i;
+    for (i = 0; i < num; i++)
+    {
+        if (allRecords[i].id == id1)
+        {
+            city1 = allRecords[i];
+        }
+        if (allRecords[i].id == id2)
+        {
+            city2 = allRecords[i];
+        }
+    }
+    // Compute the distance using the Euclidean formula
+    double dx = city1.x - city2.x;
+    double dy = city1.y - city2.y;
+    return sqrt(dx * dx + dy * dy);
+}
