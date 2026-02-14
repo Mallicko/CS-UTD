@@ -1,0 +1,167 @@
+1. Kilimanjaro, Incorporated, imposes a payback cutoff of three years for its international investment projects.
+
+Year	Cash Flow (A)	Cash Flow (B)
+0	−$ 62,000	−$ 72,000
+1	24,000	16,000
+2	30,000	19,000
+3	22,000	28,000
+4	9,000	232,000
+What is the payback period for both projects?
+
+Note: Do not round intermediate calculations and round your answers to 2 decimal places, e.g., 32.16.
+
+
+
+Which project should the company accept?
+
+multiple choice
+Project A
+Project B
+
+2. A project that provides annual cash flows of $16,800 for nine years costs $74,000 today.
+
+What is the NPV for the project if the required return is 8 percent?
+
+Note: Do not round intermediate calculations and round your answer to 2 decimal places, e.g., 32.16.
+
+
+
+At a required return of 8 percent, should the firm accept this project?
+
+multiple choice 1
+Accept
+Reject
+
+What is the NPV for the project if the required return is 20 percent?
+
+Note: A negative answer should be indicated by a minus sign. Do not round intermediate calculations and round your answer to 2 decimal places, e.g., 32.16.
+
+
+
+At a required return of 20 percent, should the firm accept this project?
+
+multiple choice 2
+Accept
+Reject
+
+At what discount rate would you be indifferent between accepting the project and rejecting it?
+
+Note: Do not round intermediate calculations and enter your answer as a percent rounded to 2 decimal places, e.g., 32.16.
+
+3. Flamingo, Incorporated, has identified the following two mutually exclusive projects:
+
+Year	Cash Flow (A)	Cash Flow (B)
+0	−$ 29,200	−$ 29,200
+1	14,600	4,400
+2	12,500	9,900
+3	9,300	15,400
+4	5,200	17,000
+a-1. What is the IRR for each of these projects?
+
+Note: Do not round intermediate calculations and enter your answers as a percent rounded to 2 decimal places, e.g., 32.16
+
+
+
+a-2. Using the IRR decision rule, which project should the company accept?
+
+multiple choice 1
+Project A
+Project B
+
+a-3. Is this decision necessarily correct?
+
+multiple choice 2
+Yes
+No
+
+b-1. If the required return is 10 percent, what is the NPV for each of these projects?
+
+Note: Do not round intermediate calculations and round your answers to 2 decimal places, e.g., 32.16.
+
+
+
+b-2. Which project will the company choose if it applies the NPV decision rule?
+
+multiple choice 3
+Project A
+Project B
+
+c. At what discount rate would the company be indifferent between these two projects?
+
+Note: Do not round intermediate calculations and enter your answer as a percent rounded to 2 decimal places, e.g., 32.16
+
+4. Consider the following two mutually exclusive projects:
+
+Year	Cash Flow (X)	Cash Flow (Y)
+0	−$ 19,500	−$ 19,500
+1	8,725	9,850
+2	8,850	7,675
+3	8,675	8,575
+Calculate the IRR for each project.
+
+Note: Do not round intermediate calculations and enter your answers as a percent rounded to 2 decimal places, e.g., 32.16.
+
+
+
+What is the crossover rate for these two projects?
+
+Note: Do not round intermediate calculations and enter your answer as a percent rounded to 2 decimal places, e.g., 32.16.
+
+
+
+What is the NPV of Projects X and Y at discount rates of 0 percent, 15 percent, and 25 percent?
+
+Note: A negative answer should be indicated by a minus sign. Do not round intermediate calculations and round your answers to 2 decimal places, e.g., 32.16.
+
+5. The Yoo Corporation is trying to choose between the following two mutually exclusive design projects:
+
+Year	Cash Flow (I)	Cash Flow (II)
+0	−$ 67,000	−$ 17,700
+1	30,500	9,550
+2	30,500	9,550
+3	30,500	9,550
+a-1. If the required return is 11 percent, what is the profitability index for both projects?
+
+Note: Do not round intermediate calculations and round your answers to 3 decimal places, e.g., 32.161.
+
+
+
+a-2. If the company applies the profitability index decision rule, which project should the firm accept?
+
+multiple choice 1
+Project I
+Project Il
+
+b-1. What is the NPV for both projects?
+
+Note: A negative answer should be indicated by a minus sign. Do not round intermediate calculations and round your answers to 2 decimal places, e.g., 32.16.
+
+
+
+b-2. If the company applies the NPV decision rule, which project should it take?
+
+multiple choice 2
+Project I
+Project II
+6. 
+
+
+d-2. If you apply the IRR criterion, which investment will you choose?
+
+multiple choice 4
+Project A
+Project B
+
+e-1. What is the profitability index for each project?
+
+Note: Do not round intermediate calculations and round your answers to 3 decimal places, e.g., 32.161.
+
+
+
+e-2. If you apply the profitability index criterion, which investment will you choose?
+
+multiple choice 5
+Project A
+Project B
+
+f. Based on your answers in (a) through (e), which project will you finally choose?
